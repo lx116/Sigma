@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xmbcjJs3XwSxUgbRfB++P6VcaQzlr+CQ2UjnM4s4dYx4T8Olj/9q93dqabNxvNDQgALVYrKneVQD1O7JrAvDsw==",
+  "success": true,
+  "projectFilePath": "/Users/luisenrique/RiderProjects/Sigma/Sigma/Sigma.iOS/Sigma.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/luisenrique/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

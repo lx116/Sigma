@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "VHdggE7LFhPF5NTs7V3U37GI6PkNtF8+Sei8bfUuiUESg0LF8anxZgj5SvNPwe3gPfTWQ3Gl8+TKio2P43tR6Q==",
+  "success": true,
+  "projectFilePath": "/Users/luisenrique/RiderProjects/Sigma/Sigma/Sigma/Sigma.csproj",
+  "expectedPackageFiles": [
+    "/Users/luisenrique/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/luisenrique/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/luisenrique/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
