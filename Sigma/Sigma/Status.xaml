@@ -1,15 +1,68 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <ContentPage
+    ControlTemplate="{StaticResource ThemeMaster}"
     x:Class="Sigma.Status"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
     <ContentPage.Content>
         <StackLayout>
-            <Label
-                HorizontalOptions="CenterAndExpand"
-                Text="Hello, world!"
-                VerticalOptions="CenterAndExpand" />
+            <CollectionView ItemsSource="{Binding StatusInfos}" SelectionMode="Multiple">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Margin="0,5">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="130" />
+                            </Grid.RowDefinitions>
+                            <Frame Grid.Row="0">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="90" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Frame
+                                        CornerRadius="50"
+                                        Grid.Column="0"
+                                        HeightRequest="60"
+                                        HorizontalOptions="Center"
+                                        IsClippedToBounds="True"
+                                        Margin="10"
+                                        VerticalOptions="Center"
+                                        WidthRequest="60">
+                                        <Image
+                                            Aspect="AspectFill"
+                                            HeightRequest="100"
+                                            Margin="-20"
+                                            Source="{Binding Image}"
+                                            WidthRequest="100" />
+                                    </Frame>
+                                    <Grid Column="1" VerticalOptions="CenterAndExpand">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="40" />
+                                            <RowDefinition Height="40" />
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="20" />
+                                        </Grid.ColumnDefinitions>
+                                        <Label
+                                            FontSize="24"
+                                            Grid.Column="0"
+                                            Grid.Row="0"
+                                            HorizontalTextAlignment="Start"
+                                            Text="{Binding Name}" />
+                                        <Label
+                                            FontSize="18"
+                                            Grid.Column="0"
+                                            Grid.Row="1"
+                                            Text="{Binding Message}" />
+                                    </Grid>
+                                </Grid>
+                            </Frame>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

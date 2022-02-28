@@ -1,15 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<TabbedPage
-    BarBackgroundColor="Black"
-    BarTextColor="White"
-    SelectedTabColor="Red"
+<FlyoutPage
     x:Class="Sigma.MainPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
     xmlns:local="clr-namespace:Sigma"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
-    
-    <local:Chats Title="Chats" />
-    <local:Status Title="Status" />
-    <local:Camera Title="Camera" />
-</TabbedPage>
+    <NavigationPage.TitleView>
+        <Image Source="https://i.ibb.co/RD495W8/image.png" />
+    </NavigationPage.TitleView>
+</FlyoutPage>

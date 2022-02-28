@@ -11,5 +11,9 @@
 /Users/luisenrique/RiderProjects/Sigma/Sigma/Sigma/obj/Debug/netstandard2.0/Sigma.dll
 /Users/luisenrique/RiderProjects/Sigma/Sigma/Sigma/obj/Debug/netstandard2.0/Sigma.pdb
 /Users/luisenrique/RiderProjects/Sigma/Sigma/Sigma/obj/Debug/netstandard2.0/Chats.xaml.g.cs
-/Users/luisenrique/RiderProjects/Sigma/Sigma/Sigma/obj/Debug/netstandard2.0/Camera.xaml.g.cs
 /Users/luisenrique/RiderProjects/Sigma/Sigma/Sigma/obj/Debug/netstandard2.0/Status.xaml.g.cs
+/Users/luisenrique/RiderProjects/Sigma/Sigma/Sigma/obj/Debug/netstandard2.0/DetailPage.xaml.g.cs
+/Users/luisenrique/RiderProjects/Sigma/Sigma/Sigma/obj/Debug/netstandard2.0/PrincipalPage.xaml.g.cs
+/Users/luisenrique/RiderProjects/Sigma/Sigma/Sigma/obj/Debug/netstandard2.0/Calls.xaml.g.cs
+/Users/luisenrique/RiderProjects/Sigma/Sigma/Sigma/obj/Debug/netstandard2.0/ChatSimulation.xaml.g.cs
+/Users/luisenrique/RiderProjects/Sigma/Sigma/Sigma/obj/Debug/netstandard2.0/Camera.xaml.g.cs

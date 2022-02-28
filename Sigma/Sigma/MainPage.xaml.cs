@@ -7,11 +7,14 @@ using Xamarin.Forms;
 
 namespace Sigma
 {
-    public partial class MainPage : TabbedPage
+    public partial class MainPage : FlyoutPage
     {
         public MainPage()
         {
             InitializeComponent();
+            this.Detail = new NavigationPage(new DetailPage());
+            this.Flyout = new PrincipalPage();
+            App.FlyoutP = this;
         }
     }
 }

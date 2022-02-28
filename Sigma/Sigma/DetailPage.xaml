@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<TabbedPage
+    BarBackgroundColor="White"
+    NavigationPage.HasNavigationBar="False"
+    SelectedTabColor="Blue"
+    Title="SIGMA"
+    android:TabbedPage.ToolbarPlacement="Bottom"
+    x:Class="Sigma.DetailPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:local="clr-namespace:Sigma;assembly=Sigma"
+    xmlns:sigma="clr-namespace:Sigma;assembly=Sigma"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <local:Chats IconImageSource="https://i.ibb.co/V9Px4qZ/image.png" />
+    <local:Status IconImageSource="https://i.ibb.co/R2qRFrT/image.png" />
+    <local:Calls IconImageSource="https://i.ibb.co/m0SJ9NT/image.png" />
+
+</TabbedPage>
